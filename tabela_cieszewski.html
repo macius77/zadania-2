@@ -7,73 +7,156 @@
 		<meta name="Author" content="Maciej Cieszewski" />
 		<meta name="Description" content="//opis strony//" /> 
     </head>
-	<body>
-	
-		<h2>Dane Komputerowe – Cieszewski Maciej 2Fg1</h2>
+	<style>
+body{
+    background:#222;
+    font-family: Arial, sans-serif;
+}
 
-<table border="1" cellpadding="5" cellspacing="0">
+table{
+    border-collapse: collapse;
+    margin: 30px auto;
+    width: 900px;
+    border: 3px solid red;
+    background:#444;
+}
+
+th, td{
+    border: 2px solid black;
+    padding: 8px;
+    text-align: center;
+    font-size: 14px;
+}
+
+/* Nagłówki */
+th{
+    background: #bfbfbf;
+    font-weight: bold;
+}
+
+/* Kolory komórek */
+.zielony{ background:#00aa00; color:black; }
+.czerwony{ background:#ff3333; color:black; }
+.brazowy{ background:#5b4b00; color:#ff0000; }
+.szary{ background:#999; }
+
+/* Tytuł i stopka */
+.tytul{
+    background:#666;
+    color:white;
+    font-size:18px;
+}
+
+.stopka{
+    background:#666;
+    color:white;
+    font-size:14px;
+}
+.zrodlo{
+    color:white;
+    font-size:12px;
+    margin-left:120px;
+}
+</style>
+</head>
+
+<body>
+
+<table>
     <tr>
-        <th>Model karty graficznej</th>
+        <th colspan="5" class="tytul">
+            Dane Komputerowe – Cieszewski Maciej 2Fg1
+        </th>
+    </tr>
+
+    <tr>
+        <th>model karty graficznej</th>
         <th>Producent chipsetu</th>
-        <th>Wielkość pamięci</th>
-        <th>Typ złącza</th>
-        <th>Model chipsetu</th>
+        <th>wielkość pamięci</th>
+        <th>typ złącza</th>
+        <th>model chipsetu</th>
     </tr>
 
     <tr>
-        <td>Gigabyte GeForce RTX 5060 WINDFORCE OC 8GB DLSS 4</td>
-        <td>NVIDIA</td>
-        <td>8 GB</td>
-        <td>PCI-Express x8</td>
-        <td>GeForce RTX 5060</td>
+        <td class="zielony">
+            Gigabyte GeForce RTX 5060<br>
+            WINDFORCE OC 8GB DLSS 4
+        </td>
+        <td class="zielony">NVIDIA</td>
+        <td class="zielony">8 GB</td>
+        <td class="czerwony">PCI-Express x8</td>
+        <td class="zielony">GeForce RTX 5060</td>
     </tr>
 
     <tr>
-        <td>ASUS GeForce RTX 5070 PRIME OC 12GB DLSS 4</td>
-        <td>NVIDIA</td>
-        <td>12 GB</td>
-        <td>PCI-Express x16</td>
-        <td>GeForce RTX 5070</td>
+        <td class="brazowy">
+            ASUS GeForce RTX 5070<br>
+            PRIME OC 12GB DLSS 4
+        </td>
+        <td class="zielony">NVIDIA</td>
+        <td class="czerwony">12 GB</td>
+        <td class="czerwony">PCI-Express x16</td>
+        <td class="brazowy">GeForce RTX 5070</td>
     </tr>
 
     <tr>
-        <td>PowerColor Radeon RX 9060 XT Reaper 8GB OC</td>
-        <td>AMD</td>
-        <td>8 GB</td>
-        <td>PCI-Express x16</td>
-        <td>Radeon RX 9060 XT</td>
+        <td class="brazowy">
+            PowerColor Radeon RX 9060<br>
+            XT Reaper 8GB OC
+        </td>
+        <td class="czerwony">AMD</td>
+        <td class="zielony">8 GB</td>
+        <td class="czerwony">PCI-Express x16</td>
+        <td class="brazowy">Radeon RX 9060 XT</td>
     </tr>
 
     <tr>
-        <td>ASUS Radeon RX 9070 XT PRIME 16GB OC</td>
-        <td>AMD</td>
-        <td>16 GB</td>
-        <td>PCI-Express x16</td>
-        <td>Radeon RX 9070 XT</td>
+        <td class="brazowy">
+            ASUS Radeon RX 9070 XT<br>
+            PRIME 16GB OC
+        </td>
+        <td class="czerwony">AMD</td>
+        <td class="brazowy">16 GB</td>
+        <td class="czerwony">PCI-Express x16</td>
+        <td class="brazowy">Radeon RX 9070 XT</td>
     </tr>
 
     <tr>
-        <td>ASUS GeForce RTX 4060 Ti DUAL 8GB OC EVO DLSS 3</td>
-        <td>NVIDIA</td>
-        <td>8 GB</td>
-        <td>PCI-Express x16</td>
-        <td>GeForce RTX 4060 Ti</td>
+        <td class="zielony">
+            ASUS GeForce RTX 4060 Ti<br>
+            DUAL 8GB EVO DLSS 3
+        </td>
+        <td class="zielony">NVIDIA</td>
+        <td class="zielony">8 GB</td>
+        <td class="czerwony">PCI-Express x16</td>
+        <td class="zielony">GeForce RTX 4060 Ti</td>
     </tr>
 
     <tr>
-        <td>ASUS GeForce RTX 5070 Ti ProART OC 16GB DLSS 4</td>
-        <td>NVIDIA</td>
-        <td>16 GB</td>
-        <td>PCI-Express x16</td>
-        <td>GeForce RTX 5070 Ti</td>
+        <td class="zielony">
+            ASUS GeForce RTX 5070 Ti<br>
+            ProART OC 16GB DLSS 4
+        </td>
+        <td class="zielony">NVIDIA</td>
+        <td class="zielony">16 GB</td>
+        <td class="zielony">PCI-Express x16</td>
+        <td class="zielony">GeForce RTX 5070 Ti</td>
+    </tr>
+
+    <tr>
+        <td colspan="5" class="stopka">
+            Dane Komputerowe
+        </td>
     </tr>
 </table>
 
-<p>Źródło: www.komputronik.pl</p>
-	
-	     <a href="index.html" >WSTECZ</a> <br><br><br><br>
-	 
+<div class="zrodlo">
+    Źródło: www.komputronik.pl
+</div>
 
-	</body>
+	<a href="index.html" >WSTECZ</a> <br><br><br><br>
+
+</body>
 
     </html>
+
