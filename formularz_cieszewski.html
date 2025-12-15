@@ -7,12 +7,116 @@
 		<meta name="Author" content="Maciej Cieszewski" />
 		<meta name="Description" content="//opis strony//" /> 
     </head>
-	<body>
-	TUTAJ BĘDZIE FORMULARZ  <BR><BR><BR>
-	
-	   <a href="index.html" >WSTECZ</a> <br><br><br><br>
-	 
+	<body bgcolor="#C0C0C0">
+<center><h1> <font color="#008000" > <B> FORMULARZ WYBORU ZAJĘĆ SPORTOWYCH</B></font></h1></center>
+<form enctype="text/plain" action="mailto:mkryniew@ids.gda.pl" subject="Cieszewski Maciej" method="Post">
+<TABLE>
+<TR height="100">
+<TD width="500">
+<b>Imię</b> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp<input name="imie" size="22">
+<br><br>
+<b>Nazwisko </b> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <input name="nazwisko" size="22">
+<br><br>
+<b>Miejsce zamieszkania</b>&nbsp &nbsp &nbsp<input name="miejscowość" size="22"><nobr> <br>
+<br>
+<b>Wiek </b> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <input name="wiek" size="22">
+<br><br>
+</TD>
 
-	 
-	</body>
-    </html>
+<TD width="500"> <B>Czy brałeś udział w zajęciach sportowych organizowanych przez nasz klub?</B>
+<br><br>
+<input type="checkbox" name="tak" value="k"> TAK
+<br><br>
+<input type="checkbox" name="nie" value="m"> NIE
+
+<br><br><br>
+<nobr>Jeżeli zaznaczyłeś TAK to podaj w jakich zajęciach brałeś udział.<br>
+ Maks: 100 znaków</nobr>
+<br><br>
+<input name="tak" size="25" maxlength="100">
+</TD>
+
+<TD>podaj czas &nbsp &nbsp &nbsp &nbsp<input type="time"><br>
+podaj datę &nbsp &nbsp &nbsp&nbsp &nbsp<input type="date"> <br>
+ <br> </TD>
+</TR>
+
+<TR height="200">
+<TD><center><font size="5" color="#008000"><b>Wybierz rodzaj zajęć</b></font></center><br>
+<center> <select>
+<option value="basen">BASEN</option>
+<option value="karate">KARATE</option>
+<option value="rower">ROWER</option>
+<option value="biegi">BIEGI</option>
+<option value="rolki">ROLKI</option>
+</select> </center> </TD>
+ 
+<TD width="300" >
+<center><font size="5" color="#008000"><b>Wybierz stopień zaawansowania</b></font></center><br>
+<center> <select>
+<option value="podstawowy">PODSTAWOWY</option>
+<option value="średnio zaawansowany">ŚREDNIO ZAAWANSOWANY</option>
+<option value="zaawansowany">ZAAWANSOWANY</option>
+</select> </center></TD>
+
+<TD width="300" >
+<center><font size="5" color="#008000"><b>W jakiej miejscowości chcesz uczestniczyć w zajęciach</b></font></center><br>
+<center> <select>
+<option value="Gdańsk">GDAŃSK</option>
+<option value="Gdynia">GDYNIA</option>
+<option value="Sopot">SOPOT</option>
+<option value="Rumia">RUMIA</option>
+</select> </center>
+</TD>
+
+<TR height="200">
+
+<TD><nobr><B>Czy chciałbyś uczestniczyć w innych zajęciach niż wymienione?</B></nobr>
+<br><br>
+<input type="radio" name="pyt2" value="tak"> Tak
+<br><br>
+<input type="radio" name="pyt2" value="nie"> Nie
+<br><br>
+<input type="radio" name="pyt2" value="tak"> Nie wiem <br> <br> 
+ W polu poniżej wypisz inne zajęcia jakie by Cię zainteresowały<br>
+ <textarea cols="50" rows="4"></textarea> </TD>
+ 
+
+<TD><nobr><B>Czy posiadasz kartę pływacką?<br> (w przypadku nie wybierania zajęć na basenie zaznacz "nie dotyczy")</B></nobr>
+<br><br>
+<input type="radio" name="pyt3" value="tak"> Tak
+<br><br>
+<input type="radio" name="pyt3" value="nie"> Nie
+<br><br>
+<input type="radio" name="pyt3" value="tak"> Chciałbym wyrobić podczas zajęć
+<br><br>
+<input type="radio" name="pyt3" value="nie"> Nie jestem zainteresowany
+<br><br>
+<input type="radio" name="pyt3" value="nie dotyczy" checked> Nie dotyczy <br> <br> <b> 
+
+<TD width="500"><b> Wybieram turnus: </b>
+<br><br>
+<input type="checkbox" name="pyt4" value="1"> 05-12.07.2025
+<br><br>
+<input type="checkbox" name="pyt4" value="2"> 13-20.07.2025
+<br><br>
+<input type="checkbox" name="pyt4" value="3"> 21-28.07.2025
+<br><br>
+<input type="checkbox" name="pyt4" value="4"> 01-08.08.2025
+<br><br><br>
+Jeżeli interesuje Cię inny termin, podaj jaki
+
+<input name="inna" size="25" maxlength="100">
+</TD>
+</TR>
+
+
+<TR height="100">
+
+<TD><nobr><input type="reset" value="WYCZYŚĆ" style="height:80px; width:150px"> </TD>
+<TD> <input type="submit" value="WYŚLIJ" style="height:80px; width:150px"></TD>
+</TR>
+</TABLE>
+</form>
+</body>
